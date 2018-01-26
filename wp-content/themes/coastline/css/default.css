@@ -1,0 +1,40 @@
+/* -----------------------------------------
+   Main Color #EDDE33 Yellow
+----------------------------------------- */
+#load-more,
+.load-more > a,
+#infscr-loading > div {
+  background-color: #edde33;
+}
+
+#load-more:hover,
+.load-more > a:hover {
+  background-color: #e8d714;
+}
+
+#infscr-loading > div,
+#load-more,
+.load-more > a {
+  color: black;
+}
+
+#infscr-loading > div:before {
+  background: url("../images/ajax-load.png") no-repeat;
+}
+
+@media (min-width: 768px) {
+  #navigation ul {
+    background-color: #edde33;
+  }
+
+  #navigation ul a {
+    color: rgba(79, 79, 79, 0.7);
+    border-bottom: 1px solid rgba(79, 79, 79, 0.2);
+  }
+
+  #navigation ul a:hover,
+  #navigation ul li.sfHover > a {
+    color: #4f4f4f;
+    border-color: rgba(79, 79, 79, 0.3);
+  }
+}
