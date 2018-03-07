@@ -197,7 +197,7 @@ body,
   width: 250px;
   padding: 45px;
   z-index: 10;
-  background-color: #111111;
+  background-color: #000;
 }
 @media (max-width: 767px) {
   .sidebar {
